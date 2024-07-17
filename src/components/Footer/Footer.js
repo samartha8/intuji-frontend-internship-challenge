@@ -6,19 +6,19 @@ const Footer = () => {
       <div className="container mx-auto px-8 flex flex-col md:flex-row justify-between">
         <div className="mb-8 md:mb-0">
           <h2 className="text-xl font-bold">AR Shakir</h2>
-          <p className="text-gray-600 mt-2">Finance helps companies manage payments easily.</p>
+          <p className="text-gray-600 mt-2 max-w-[213px]">Finance helps companies manage payments easily.</p>
           <div className="flex space-x-4 mt-4">
             <a href="#" className="text-blue-600 hover:text-blue-800">
-              <i className="fab fa-linkedin"></i>
+              <img src="/image/linkedin.png" alt="" />
             </a>
             <a href="#" className="text-blue-600 hover:text-blue-800">
-              <i className="fab fa-facebook-messenger"></i>
+              <img src="/image/messenger.png" alt="" />
             </a>
             <a href="#" className="text-blue-600 hover:text-blue-800">
-              <i className="fab fa-twitter"></i>
+              <img src="/image/twitter.png" alt="" />
             </a>
             <a href="#" className="text-blue-600 hover:text-blue-800">
-              <i className="fab fa-infinity"></i>
+              <img src="/image/infinity.png" alt="" />
             </a>
           </div>
         </div>
@@ -46,16 +46,16 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Your email address"
-              className="px-4 py-2 border rounded-l-lg focus:outline-none"
+              className="px-4 py-2 focus:outline-none"
             />
             <button
               type="submit"
-              className="px-4 py-2 bg-blue-600 text-white rounded-r-lg hover:bg-blue-700"
+              className="px-4 py-2 bg-blue-600 text-white hover:bg-blue-700"
             >
               Subscribe
             </button>
           </form>
-          <p className="text-gray-600 mt-2">
+          <p className="text-gray-600 mt-2 max-w-[329px]">
             * Will send you weekly updates for your better finance management.
           </p>
         </div>

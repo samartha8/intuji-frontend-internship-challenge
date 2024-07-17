@@ -34,7 +34,7 @@ export default function Tracking() {
         </div>
       </div>
     </div>
-    <div className='grid grid-cols-3 gap-3'>
+    {/* <div className='grid grid-cols-3 gap-3'>
         <div className='p-5 rounded-lg shadow-md bg-[#FFFFFF]'>
         <p>01</p>
         <h2 className='flex justify-center '>Connect wallets & companies</h2>
@@ -43,7 +43,7 @@ export default function Tracking() {
         </div>
         <div className='bg-[#FFFFFF]'>02</div>
         <div className='bg-[#FFFFFF]'>03</div>
-    </div>
+    </div> */}
     {/* <div></div> */}
    </section>
   )

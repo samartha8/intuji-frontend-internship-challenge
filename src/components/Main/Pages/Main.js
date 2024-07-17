@@ -18,9 +18,9 @@ export default function Main() {
   <Tracking/>
    <Payments/>
    <SaveMoney/>
-   <Features/>
+   {/* <Features/> */}
    <UserInteraction/>
-   <Testimonials/>
+   {/* <Testimonials/> */}
    {/* <RecentBlogs/> */}
    {/* <FAQs/> */}
    <Counts/>
