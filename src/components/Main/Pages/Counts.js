@@ -3,7 +3,7 @@ import React from 'react';
 const Counts = () => {
   return (
     <section className='bg-white px-8 w-full'>
-    <div className="bg-purple-700  text-white py-20 flex flex-col items-center justify-center rounded-[14px] ">
+    <div className="bg-[#3734A9]  text-white py-20 flex flex-col items-center justify-center rounded-[14px] ">
       <h2 className="text-3xl md:text-4xl font-bold mb-6">
         Discover a better way to manage spendings
       </h2>

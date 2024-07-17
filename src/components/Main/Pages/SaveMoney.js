@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function SaveMoney() {
   return (
-    <div className="bg-gray-50 py-16 px-4 flex justify-center">
+    <div className="bg-gray-50 px-4 flex justify-center">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
         
         {/* Left Section */}
@@ -26,20 +26,8 @@ export default function SaveMoney() {
         
         {/* Right Section */}
         <div className="flex justify-center relative">
-          <img src="" alt="Hand holding a credit card" className="w-full max-w-md rounded-lg shadow-lg" />
-          <div className="absolute bottom-0 left-0 p-4 bg-white rounded-lg shadow-lg">
-            <h2 className="text-gray-800 font-bold">Total Balance</h2>
-            <p className="text-green-500">$4,200 <span className="text-sm text-gray-500">+14%</span></p>
-            <div className="flex space-x-2 mt-2">
-              {/* Example bars */}
-              <div className="h-6 bg-blue-500 w-2"></div>
-              <div className="h-8 bg-blue-500 w-2"></div>
-              <div className="h-10 bg-blue-500 w-2"></div>
-              <div className="h-12 bg-blue-500 w-2"></div>
-              <div className="h-8 bg-blue-500 w-2"></div>
-              <div className="h-6 bg-blue-500 w-2"></div>
-            </div>
-          </div>
+        <img src="/image/savingMoney.png" alt="" />
+          
         </div>
       </div>
     </div>

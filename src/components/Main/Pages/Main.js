@@ -6,16 +6,24 @@ import Payments from './Payments'
 import HeroSection from './HeroSection'
 import SaveMoney from './SaveMoney'
 import Tracking from './Tracking'
+import Testimonials from './Testimonials'
+import UserInteraction from './UserInteraction'
+// import RecentBlogs from './RecentBlogs'
+// import FAQs from './FAQs'
 export default function Main() {
   return (
    <>
    <HeroSection/>
   <AboveFold/>
   <Tracking/>
-   <Features/>
    <Payments/>
-   <Counts/>
    <SaveMoney/>
+   <Features/>
+   <UserInteraction/>
+   <Testimonials/>
+   {/* <RecentBlogs/> */}
+   {/* <FAQs/> */}
+   <Counts/>
    
    </>
   )

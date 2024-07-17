@@ -2,13 +2,11 @@ import React from 'react';
 
 function Payments() {
   return (
-    <div className="bg-gray-50 py-16 px-4 flex justify-center">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+    <div className="bg-gray-50 px-4 flex justify-center ">
+      <div className="flex items-center justify-between">
         {/* Left Section: Image Placeholder */}
-        <div className="flex justify-center">
-          <div className="bg-blue-200 rounded-lg w-full h-64 md:h-auto flex items-center justify-center">
-            <span className="text-gray-500">Image Placeholder</span>
-          </div>
+          <div className="h-full">
+            <img src="/image/payments.png" alt="payments" />
         </div>
         
         {/* Right Section: Text and Features */}
@@ -20,17 +18,18 @@ function Payments() {
           <p className="text-gray-600 mb-6">
             Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.
           </p>
+          <img src="/image/line.png" alt="" />
           <ul className="space-y-4">
             <li className="flex items-start">
-              <svg className="h-6 w-6 text-yellow-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+              <img src="/image/yellowTick.png" alt="" />
               <span className="ml-2 text-gray-700">Get Overview at a glance</span>
             </li>
             <li className="flex items-start">
-              <svg className="h-6 w-6 text-yellow-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+               <img src="/image/yellowTick.png" alt="" />
               <span className="ml-2 text-gray-700">Deposit funds easily, security</span>
             </li>
             <li className="flex items-start">
-              <svg className="h-6 w-6 text-yellow-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+               <img src="/image/yellowTick.png" alt="" />
               <span className="ml-2 text-gray-700">Get Live Support</span>
             </li>
           </ul>
